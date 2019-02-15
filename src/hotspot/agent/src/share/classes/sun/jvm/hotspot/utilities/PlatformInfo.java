@@ -62,7 +62,8 @@ public class PlatformInfo {
     } else if (cpu.equals("sparc") || cpu.equals("sparcv9")) {
       return "sparc";
     } else if (cpu.equals("ia64") || cpu.equals("amd64") ||
-               cpu.equals("x86_64") || cpu.equals("aarch64")) {
+               cpu.equals("x86_64") || cpu.equals("aarch64") ||
+               cpu.equals("ppc64")) {
       return cpu;
     } else
       try {

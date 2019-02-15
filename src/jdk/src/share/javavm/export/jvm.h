@@ -27,6 +27,8 @@
 #define _JAVASOFT_JVM_H_
 
 #include <sys/stat.h>
+#include <sys/types.h>
+#include <sys/socket.h>
 
 #include "jni.h"
 #include "jvm_md.h"
